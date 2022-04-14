@@ -1,0 +1,85 @@
+ssh://xwang@next-dgx1-01.d2.comp.nus.edu.sg:22/storage/xwang/anaconda3/envs/screener/bin/python3 -u /storage/xwang/mycode/codes_kdd21_rlscreener/RL-Screener-Pro/run_mutag.py
+/storage/xwang/anaconda3/envs/screener/lib/python3.8/site-packages/torch/serialization.py:657: SourceChangeWarning: source code of class 'module.gnn_model_zoo.mutag_gnn.MutagNet' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/storage/xwang/anaconda3/envs/screener/lib/python3.8/site-packages/torch/serialization.py:657: SourceChangeWarning: source code of class 'torch.nn.modules.linear.Linear' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/storage/xwang/anaconda3/envs/screener/lib/python3.8/site-packages/torch/serialization.py:657: SourceChangeWarning: source code of class 'torch.nn.modules.container.ModuleList' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/storage/xwang/anaconda3/envs/screener/lib/python3.8/site-packages/torch/serialization.py:657: SourceChangeWarning: source code of class 'torch.nn.modules.activation.ReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+100%|█████████████████████████████████████████| 105/105 [00:01<00:00, 68.27it/s]
+number of graphs in the training:2907
+100%|████████████████████████████████████████| 500/500 [00:01<00:00, 306.50it/s]
+number of graphs in the testing: 435
+
+ACC-AUC: 0.6299
+[0.48735632 0.49885057 0.51034483 0.54252874 0.53333333 0.54022989
+ 0.63678161 0.70804598 0.84137931 1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:53<00:00,  1.24s/it]
+Episode: 1, loss: -4344.7441, average rewards: 0.7353
+
+ACC-AUC: 0.8784
+[0.82068966 0.84597701 0.86206897 0.86666667 0.85287356 0.86896552
+ 0.87126437 0.89655172 0.89885057 1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:58<00:00,  1.30s/it]
+Episode: 2, loss: -10578.2295, average rewards: 0.7307
+
+ACC-AUC: 0.8846
+[0.96321839 0.96091954 0.94482759 0.94712644 0.94712644 0.92413793
+ 0.69195402 0.67586207 0.7908046  1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:49<00:00,  1.20s/it]
+Episode: 3, loss: -12847.9512, average rewards: 0.7280
+
+ACC-AUC: 0.7816
+[0.82758621 0.69655172 0.68275862 0.71034483 0.73563218 0.77701149
+ 0.76781609 0.76781609 0.85057471 1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:50<00:00,  1.21s/it]
+Episode: 4, loss: -13369.7334, average rewards: 0.7361
+
+ACC-AUC: 0.7407
+[0.76551724 0.68505747 0.68275862 0.68275862 0.70344828 0.63908046
+ 0.64367816 0.74022989 0.86436782 1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:49<00:00,  1.21s/it]
+Episode: 5, loss: -13216.9375, average rewards: 0.7369
+
+ACC-AUC: 0.9060
+[0.96781609 0.96091954 0.94482759 0.93563218 0.89655172 0.87816092
+ 0.82988506 0.8183908  0.82758621 1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:45<00:00,  1.15s/it]
+Episode: 6, loss: -13139.7676, average rewards: 0.7389
+
+ACC-AUC: 0.9041
+[0.91724138 0.91494253 0.90344828 0.89655172 0.86896552 0.88045977
+ 0.87586207 0.88505747 0.89885057 1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:47<00:00,  1.19s/it]
+Episode: 7, loss: -12776.7266, average rewards: 0.7370
+
+ACC-AUC: 0.9598
+[0.97701149 0.97011494 0.96551724 0.95862069 0.96091954 0.96091954
+ 0.93563218 0.92183908 0.94712644 1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:55<00:00,  1.27s/it]
+Episode: 8, loss: -12382.0586, average rewards: 0.7404
+
+ACC-AUC: 0.9094
+[0.94482759 0.95632184 0.93793103 0.93333333 0.93563218 0.91724138
+ 0.85287356 0.76091954 0.85517241 1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:48<00:00,  1.19s/it]
+Episode: 9, loss: -13859.4219, average rewards: 0.7375
+
+ACC-AUC: 0.8979
+[0.94942529 0.96091954 0.95172414 0.94942529 0.93563218 0.86206897
+ 0.71264368 0.76321839 0.89425287 1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:43<00:00,  1.14s/it]
+Episode: 10, loss: -13008.0898, average rewards: 0.7410
+
+ACC-AUC: 0.8715
+[0.97011494 0.96091954 0.93563218 0.91724138 0.88505747 0.82988506
+ 0.74022989 0.63678161 0.83908046 1.        ]
+100%|███████████████████████████████████████████| 91/91 [01:50<00:00,  1.21s/it]
+Episode: 11, loss: -12320.0693, average rewards: 0.7412
+
+ACC-AUC: 0.8692
+[0.85747126 0.86206897 0.82298851 0.84827586 0.85287356 0.85977011
+ 0.84827586 0.85287356 0.88735632 1.        ]
+ 71%|██████████████████████████████▋            | 65/91 [01:13<00:30,  1.19s/it]
+Process finished with exit code -1

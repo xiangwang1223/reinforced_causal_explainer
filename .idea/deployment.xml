@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="lds-1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/RC-explainer" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lds-2">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lds-3">
+        <serverdata>
+          <mappings>
+            <mapping deploy="RC-explainer" local="$PROJECT_DIR$" web="RC-explainer" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lds-4">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lds-5">
+        <serverdata>
+          <mappings>
+            <mapping deploy="RC-explainer" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lds-6">
+        <serverdata>
+          <mappings>
+            <mapping deploy="RC-explainer" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lds-7">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
