@@ -32,4 +32,4 @@ bash running_reddit5k.sh
 
 Hyper-parameter settings are shown below:
 
-![](\Hyperparameters.png)
+![](./Hyperparameters.png)
